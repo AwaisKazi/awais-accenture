@@ -17,58 +17,47 @@ package org.kie.kogito.queries;
 
 public class CreditCardApplication {
 
-    private String id;
-    private Applicant applicant;
+    private String name;
+    private int age;
     private int creditScore;
-
-    // private int amountOfCredit = 0;
     private boolean approved = false;
 
     public CreditCardApplication() {
 
     }
 
-    public CreditCardApplication(String id, Applicant applicant, int creditScore) {
-        this.id = id;
-        this.applicant = applicant;
+    public CreditCardApplication(String name, int age, int creditScore) {
+        this.name = name;
+        this.age = age;
         this.creditScore = creditScore;
-
     }
 
-    public String getId() {
-        return id;
+    public String getName() {
+        return this.name;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public Applicant getApplicant() {
-        return applicant;
+    public int getAge() {
+        return this.age;
     }
 
-    public void setApplicant(Applicant applicant) {
-        this.applicant = applicant;
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public int getCreditScore() {
-        return creditScore;
+        return this.creditScore;
     }
 
     public void setCreditScore(int creditScore) {
         this.creditScore = creditScore;
     }
 
-    // public int getAmountOfCredit() {
-    //     return amountOfCredit;
-    // }
-
-    // public void setAmountOfCredit(int amountOfCredit) {
-    //     this.amountOfCredit = amountOfCredit;
-    // }
-
-    public boolean getApproved() {
-        return approved;
+    public boolean isApproved() {
+        return this.approved;
     }
 
     public void setApproved(boolean approved) {
