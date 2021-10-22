@@ -21,7 +21,7 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnit extends RulesF
 
     /**
      * With the following expression ID:
-     * org.drools.modelcompiler.builder.generator.DRLIdGenerator@3277c2cf
+     * org.drools.modelcompiler.builder.generator.DRLIdGenerator@4863026f
      */
     @Override
     public java.util.List<org.drools.model.Rule> getRules() {
@@ -29,38 +29,37 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnit extends RulesF
     }
 
     public java.util.List<org.drools.model.Rule> getRulesList() {
-        return java.util.Arrays.asList(RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0.rule_CreditCardRule__13(),
-                                       RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0.rule_CreditCardRule__14(),
-                                       RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0.rule_CreditCardRule__15(),
-                                       RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0.rule_CreditCardRule__16(),
-                                       RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0.rule_CreditCardRule__17(),
-                                       RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0.rule_CreditCardRule__18());
+        return java.util.Arrays.asList(RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0.rule_CreditRule__13(),
+                                       RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0.rule_CreditRule__14(),
+                                       RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0.rule_CreditRule__15(),
+                                       RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0.rule_CreditRule__16(),
+                                       RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0.rule_CreditRule__17());
     }
 
     java.util.List<org.drools.model.Rule> rules = getRulesList();
 
-    final Query query_FindCreditCardApproved = query_FindCreditCardApproved();
+    final Query query_FindCardApproved = query_FindCardApproved();
 
     @Override
     public java.util.List<org.drools.model.Query> getQueries() {
         return queries;
     }
 
-    private org.drools.model.Query query_FindCreditCardApproved() {
+    private org.drools.model.Query query_FindCardApproved() {
         final org.drools.model.Variable<org.kie.kogito.queries.CreditCardApplication> var_$l = D.declarationOf(org.kie.kogito.queries.CreditCardApplication.class,
                                                                                                                DomainClassesMetadataF894883E1030542FEFCE9860F835B9B7.org_kie_kogito_queries_CreditCardApplication_Metadata_INSTANCE,
                                                                                                                "$l",
                                                                                                                D.entryPoint("creditCardApplications"));
-        org.drools.model.Query FindCreditCardApproved_build = queryDef_FindCreditCardApproved.build(D.pattern(var_$l,
-                                                                                                              D.entryPoint("creditCardApplications")).expr("GENERATED_D9B8FC64E2933F1E53E4385858CEBC66",
-                                                                                                                                                           org.kie.kogito.queries.PA1.LambdaPredicateA146AA6B4A76ECC87720B19BE8F5A6BA.INSTANCE,
-                                                                                                                                                           D.reactOn("approved")));
-        return FindCreditCardApproved_build;
+        org.drools.model.Query FindCardApproved_build = queryDef_FindCardApproved.build(D.pattern(var_$l,
+                                                                                                  D.entryPoint("creditCardApplications")).expr("GENERATED_E6C1651E63AC180951B6FD55238480EA",
+                                                                                                                                               org.kie.kogito.queries.P54.LambdaPredicate547A82990F337FBC9281DFB27365B5B5.INSTANCE,
+                                                                                                                                               D.reactOn("approved")));
+        return FindCardApproved_build;
     }
 
     java.util.List<org.drools.model.Query> queries = new java.util.ArrayList<>();
 
     {
-        queries.add(query_FindCreditCardApproved);
+        queries.add(query_FindCardApproved);
     }
 }

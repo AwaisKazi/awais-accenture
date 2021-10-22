@@ -13,7 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package org.kie.kogito.queries;
 
 import org.kie.kogito.rules.DataSource;
@@ -21,6 +20,7 @@ import org.kie.kogito.rules.DataStore;
 import org.kie.kogito.rules.RuleUnitData;
 
 public class CreditCardUnit implements RuleUnitData {
+
     private DataStore<CreditCardApplication> creditCardApplications;
 
     public CreditCardUnit() {

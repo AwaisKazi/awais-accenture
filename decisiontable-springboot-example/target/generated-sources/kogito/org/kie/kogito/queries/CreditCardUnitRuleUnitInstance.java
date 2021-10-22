@@ -17,8 +17,8 @@ public class CreditCardUnitRuleUnitInstance extends org.kie.kogito.rules.units.A
 
     @Override()
     protected <Q> org.kie.kogito.rules.RuleUnitQuery<Q> createRuleUnitQuery(Class<? extends org.kie.kogito.rules.RuleUnitQuery<Q>> query) {
-        if (CreditCardUnitQueryFindCreditCardApproved.class.equals(query))
-            return (org.kie.kogito.rules.RuleUnitQuery<Q>) new CreditCardUnitQueryFindCreditCardApproved(this);
+        if (CreditCardUnitQueryFindCardApproved.class.equals(query))
+            return (org.kie.kogito.rules.RuleUnitQuery<Q>) new CreditCardUnitQueryFindCardApproved(this);
         throw new IllegalArgumentException("Unknown query: " + query.getCanonicalName());
     }
 }

@@ -13,41 +13,61 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package org.kie.kogito.queries;
 
 public class CreditCardApplication {
-    private int score;
-    private int age;
 
+    private String id;
+    private Applicant applicant;
+    private int creditScore;
+
+    // private int amountOfCredit = 0;
     private boolean approved = false;
 
     public CreditCardApplication() {
 
     }
 
-    public CreditCardApplication(int score, int age) {
-        this.score = score;
-        this.age = age;
+    public CreditCardApplication(String id, Applicant applicant, int creditScore) {
+        this.id = id;
+        this.applicant = applicant;
+        this.creditScore = creditScore;
+
     }
 
-    public int getScore() {
-        return this.score;
+    public String getId() {
+        return id;
     }
 
-    public void setScore(int score) {
-        this.score = score;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public int getAge() {
-        return this.age;
+    public Applicant getApplicant() {
+        return applicant;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setApplicant(Applicant applicant) {
+        this.applicant = applicant;
     }
 
-    public boolean isApproved() {
+    public int getCreditScore() {
+        return creditScore;
+    }
+
+    public void setCreditScore(int creditScore) {
+        this.creditScore = creditScore;
+    }
+
+    // public int getAmountOfCredit() {
+    //     return amountOfCredit;
+    // }
+
+    // public void setAmountOfCredit(int amountOfCredit) {
+    //     this.amountOfCredit = amountOfCredit;
+    // }
+
+    public boolean getApproved() {
         return approved;
     }
 

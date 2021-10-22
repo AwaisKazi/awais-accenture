@@ -42,11 +42,11 @@ public abstract class RulesF894883E1030542FEFCE9860F835B9B7 implements org.drool
                                                                                     "org.kie.kogito.queries",
                                                                                     "maxAmount");
 
+    public static final org.drools.model.Query0Def queryDef_FindCardApproved = D.query("org.kie.kogito.queries",
+                                                                                       "FindCardApproved");
+
     public static final org.drools.model.Query0Def queryDef_FindNotApprovedIdAndAmount = D.query("org.kie.kogito.queries",
                                                                                                  "FindNotApprovedIdAndAmount");
-
-    public static final org.drools.model.Query0Def queryDef_FindCreditCardApproved = D.query("org.kie.kogito.queries",
-                                                                                             "FindCreditCardApproved");
 
     public static final org.drools.model.Query0Def queryDef_FindApproved = D.query("org.kie.kogito.queries",
                                                                                    "FindApproved");
