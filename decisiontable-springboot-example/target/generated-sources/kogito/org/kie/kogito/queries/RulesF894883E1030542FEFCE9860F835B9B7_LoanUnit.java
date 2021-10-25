@@ -3,6 +3,7 @@ package org.kie.kogito.queries;
 import org.drools.modelcompiler.dsl.pattern.D;
 import org.drools.model.Index.ConstraintType;
 import org.kie.kogito.queries.CreditCardUnit;
+import org.kie.kogito.queries.GradeUnit;
 import org.kie.kogito.queries.LoanApplication;
 import static org.kie.kogito.queries.RulesF894883E1030542FEFCE9860F835B9B7.*;
 import org.drools.model.Query;
@@ -21,7 +22,7 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_LoanUnit extends RulesF894883
 
     /**
      * With the following expression ID:
-     * org.drools.modelcompiler.builder.generator.DRLIdGenerator@4863026f
+     * org.drools.modelcompiler.builder.generator.DRLIdGenerator@2b9cdb4e
      */
     @Override
     public java.util.List<org.drools.model.Rule> getRules() {
@@ -54,7 +55,7 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_LoanUnit extends RulesF894883
                                                                                                          D.entryPoint("loanApplications"));
         org.drools.model.Query FindApproved_build = queryDef_FindApproved.build(D.pattern(var_$l,
                                                                                           D.entryPoint("loanApplications")).expr("GENERATED_1DB11A9BDC0E975B2134FF23CDA3A1DA",
-                                                                                                                                 org.kie.kogito.queries.P42.LambdaPredicate4265C14FCA1BF91DF1760F2D8E4EFCB5.INSTANCE,
+                                                                                                                                 org.kie.kogito.queries.P06.LambdaPredicate065364E12F095C45B89A38844F44C782.INSTANCE,
                                                                                                                                  D.reactOn("approved")));
         return FindApproved_build;
     }
@@ -71,11 +72,11 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_LoanUnit extends RulesF894883
                                                                                "$amount");
         org.drools.model.Query FindNotApprovedIdAndAmount_build = queryDef_FindNotApprovedIdAndAmount.build(D.pattern(var_GENERATED_$pattern_LoanApplication$1$,
                                                                                                                       D.entryPoint("loanApplications")).expr("GENERATED_873BBEADE9E88B7E5D92A91EEB1CF7FF",
-                                                                                                                                                             org.kie.kogito.queries.P3F.LambdaPredicate3F1338D027291BC42EEE7629975BA5D9.INSTANCE,
+                                                                                                                                                             org.kie.kogito.queries.P8B.LambdaPredicate8BD05467617B8ACCA7029A0C207C5604.INSTANCE,
                                                                                                                                                              D.reactOn("approved")).bind(var_$id,
-                                                                                                                                                                                         org.kie.kogito.queries.P65.LambdaExtractor65359930780D159B6AF83A3AD093B3FA.INSTANCE,
+                                                                                                                                                                                         org.kie.kogito.queries.P49.LambdaExtractor49A88B24E4CCC9C04A1678D738544882.INSTANCE,
                                                                                                                                                                                          D.reactOn("id")).bind(var_$amount,
-                                                                                                                                                                                                               org.kie.kogito.queries.PE9.LambdaExtractorE936DC7EFAB4BCCDB9D857E54E6CAD16.INSTANCE,
+                                                                                                                                                                                                               org.kie.kogito.queries.P26.LambdaExtractor2670D6E6835585E41C96C941079C2470.INSTANCE,
                                                                                                                                                                                                                D.reactOn("amount")));
         return FindNotApprovedIdAndAmount_build;
     }

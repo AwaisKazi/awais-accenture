@@ -3,6 +3,7 @@ package org.kie.kogito.queries;
 import org.drools.modelcompiler.dsl.pattern.D;
 import org.drools.model.Index.ConstraintType;
 import org.kie.kogito.queries.CreditCardUnit;
+import org.kie.kogito.queries.GradeUnit;
 import org.kie.kogito.queries.LoanApplication;
 import static org.kie.kogito.queries.RulesF894883E1030542FEFCE9860F835B9B7.*;
 import org.drools.model.Query;
@@ -21,7 +22,7 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnit extends RulesF
 
     /**
      * With the following expression ID:
-     * org.drools.modelcompiler.builder.generator.DRLIdGenerator@4863026f
+     * org.drools.modelcompiler.builder.generator.DRLIdGenerator@2b9cdb4e
      */
     @Override
     public java.util.List<org.drools.model.Rule> getRules() {
@@ -52,7 +53,7 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnit extends RulesF
                                                                                                                D.entryPoint("creditCardApplications"));
         org.drools.model.Query FindCardApproved_build = queryDef_FindCardApproved.build(D.pattern(var_$l,
                                                                                                   D.entryPoint("creditCardApplications")).expr("GENERATED_E6C1651E63AC180951B6FD55238480EA",
-                                                                                                                                               org.kie.kogito.queries.P54.LambdaPredicate547A82990F337FBC9281DFB27365B5B5.INSTANCE,
+                                                                                                                                               org.kie.kogito.queries.P88.LambdaPredicate88B3A3982F5D5DA834C69058BEA50C6B.INSTANCE,
                                                                                                                                                D.reactOn("approved")));
         return FindCardApproved_build;
     }

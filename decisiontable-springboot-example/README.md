@@ -73,6 +73,24 @@ Given facts:
         }
     ]
 }
+
+
+school grades
+
+{
+    "schoolGrades":[
+        {
+            
+            "mathGrade":80,
+            "chemistryGrade":80,
+            "biologyGrade": 80,
+            "applicant":{"name":"John","age":45}
+            
+        }
+    ]
+}
+
+
 ```
 
 Example curl request (using the JSON above):

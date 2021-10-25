@@ -3,6 +3,7 @@ package org.kie.kogito.queries;
 import org.drools.modelcompiler.dsl.pattern.D;
 import org.drools.model.Index.ConstraintType;
 import org.kie.kogito.queries.CreditCardUnit;
+import org.kie.kogito.queries.GradeUnit;
 import org.kie.kogito.queries.LoanApplication;
 import static org.kie.kogito.queries.RulesF894883E1030542FEFCE9860F835B9B7.*;
 
@@ -21,21 +22,21 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0 {
         org.drools.model.Rule rule = D.rule("org.kie.kogito.queries",
                                             "CreditRule_13").unit(org.kie.kogito.queries.CreditCardUnit.class)
                                                             .build(D.pattern(var_$l).expr("GENERATED_1194BAD07B7889752A101628B364EF96",
-                                                                                          org.kie.kogito.queries.PBE.LambdaPredicateBE67D3791E8CAC84645F956D238565D8.INSTANCE,
+                                                                                          org.kie.kogito.queries.PFE.LambdaPredicateFEC353F5A2E63D7D5395309F0BE64512.INSTANCE,
                                                                                           D.alphaIndexedBy(int.class,
                                                                                                            org.drools.model.Index.ConstraintType.GREATER_OR_EQUAL,
                                                                                                            -1,
-                                                                                                           org.kie.kogito.queries.P6F.LambdaExtractor6FD195D62B749BDB0F5EA20D18B3AA86.INSTANCE,
+                                                                                                           org.kie.kogito.queries.PD1.LambdaExtractorD1B96BA1B3914C647BA03E917B9682DB.INSTANCE,
                                                                                                            20),
                                                                                           D.reactOn("applicant")).expr("GENERATED_96A920546752728AF0AA0A6E79F48A6F",
-                                                                                                                       org.kie.kogito.queries.P09.LambdaPredicate09E976626CD9254E3FF8F548C8375860.INSTANCE,
+                                                                                                                       org.kie.kogito.queries.PF0.LambdaPredicateF03FAD82F4DE6BB7EC2B878B9D3B448E.INSTANCE,
                                                                                                                        D.alphaIndexedBy(int.class,
                                                                                                                                         org.drools.model.Index.ConstraintType.LESS_OR_EQUAL,
                                                                                                                                         DomainClassesMetadataF894883E1030542FEFCE9860F835B9B7.org_kie_kogito_queries_CreditCardApplication_Metadata_INSTANCE.getPropertyIndex("creditScore"),
-                                                                                                                                        org.kie.kogito.queries.P23.LambdaExtractor23789FDFB52E85DE644CB8A3C7BFAA1C.INSTANCE,
+                                                                                                                                        org.kie.kogito.queries.P35.LambdaExtractor35E85972055D417CB01EECAFF605A207.INSTANCE,
                                                                                                                                         300),
                                                                                                                        D.reactOn("creditScore")),
-                                                                   D.on(var_$l).execute(org.kie.kogito.queries.PA4.LambdaConsequenceA4819B0886AAEC18C0BA78613AA674AC.INSTANCE));
+                                                                   D.on(var_$l).execute(org.kie.kogito.queries.P3E.LambdaConsequence3EE05234F5741077EC9FBF80C0A60B45.INSTANCE));
         return rule;
     }
 
@@ -52,21 +53,21 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0 {
         org.drools.model.Rule rule = D.rule("org.kie.kogito.queries",
                                             "CreditRule_14").unit(org.kie.kogito.queries.CreditCardUnit.class)
                                                             .build(D.pattern(var_$l).expr("GENERATED_1194BAD07B7889752A101628B364EF96",
-                                                                                          org.kie.kogito.queries.PBE.LambdaPredicateBE67D3791E8CAC84645F956D238565D8.INSTANCE,
+                                                                                          org.kie.kogito.queries.PFE.LambdaPredicateFEC353F5A2E63D7D5395309F0BE64512.INSTANCE,
                                                                                           D.alphaIndexedBy(int.class,
                                                                                                            org.drools.model.Index.ConstraintType.GREATER_OR_EQUAL,
                                                                                                            -1,
-                                                                                                           org.kie.kogito.queries.P6F.LambdaExtractor6FD195D62B749BDB0F5EA20D18B3AA86.INSTANCE,
+                                                                                                           org.kie.kogito.queries.PD1.LambdaExtractorD1B96BA1B3914C647BA03E917B9682DB.INSTANCE,
                                                                                                            20),
                                                                                           D.reactOn("applicant")).expr("GENERATED_7D73CD5723637645118A3422CAC5AAB1",
-                                                                                                                       org.kie.kogito.queries.PB3.LambdaPredicateB30F21A0F11EDE39F0EE98EC6BF57381.INSTANCE,
+                                                                                                                       org.kie.kogito.queries.P07.LambdaPredicate0726F8DCA1DEB7BB53748A4B1AD004CA.INSTANCE,
                                                                                                                        D.alphaIndexedBy(int.class,
                                                                                                                                         org.drools.model.Index.ConstraintType.LESS_OR_EQUAL,
                                                                                                                                         DomainClassesMetadataF894883E1030542FEFCE9860F835B9B7.org_kie_kogito_queries_CreditCardApplication_Metadata_INSTANCE.getPropertyIndex("creditScore"),
-                                                                                                                                        org.kie.kogito.queries.P23.LambdaExtractor23789FDFB52E85DE644CB8A3C7BFAA1C.INSTANCE,
+                                                                                                                                        org.kie.kogito.queries.P35.LambdaExtractor35E85972055D417CB01EECAFF605A207.INSTANCE,
                                                                                                                                         400),
                                                                                                                        D.reactOn("creditScore")),
-                                                                   D.on(var_$l).execute(org.kie.kogito.queries.PA4.LambdaConsequenceA4819B0886AAEC18C0BA78613AA674AC.INSTANCE));
+                                                                   D.on(var_$l).execute(org.kie.kogito.queries.P3E.LambdaConsequence3EE05234F5741077EC9FBF80C0A60B45.INSTANCE));
         return rule;
     }
 
@@ -83,21 +84,21 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0 {
         org.drools.model.Rule rule = D.rule("org.kie.kogito.queries",
                                             "CreditRule_15").unit(org.kie.kogito.queries.CreditCardUnit.class)
                                                             .build(D.pattern(var_$l).expr("GENERATED_1194BAD07B7889752A101628B364EF96",
-                                                                                          org.kie.kogito.queries.PBE.LambdaPredicateBE67D3791E8CAC84645F956D238565D8.INSTANCE,
+                                                                                          org.kie.kogito.queries.PFE.LambdaPredicateFEC353F5A2E63D7D5395309F0BE64512.INSTANCE,
                                                                                           D.alphaIndexedBy(int.class,
                                                                                                            org.drools.model.Index.ConstraintType.GREATER_OR_EQUAL,
                                                                                                            -1,
-                                                                                                           org.kie.kogito.queries.P6F.LambdaExtractor6FD195D62B749BDB0F5EA20D18B3AA86.INSTANCE,
+                                                                                                           org.kie.kogito.queries.PD1.LambdaExtractorD1B96BA1B3914C647BA03E917B9682DB.INSTANCE,
                                                                                                            20),
                                                                                           D.reactOn("applicant")).expr("GENERATED_CCCB09D9E4F77140768FA03DED37E82A",
-                                                                                                                       org.kie.kogito.queries.P08.LambdaPredicate0807BE5D32231F9932F11485F6E83001.INSTANCE,
+                                                                                                                       org.kie.kogito.queries.P5C.LambdaPredicate5C67D4D7CE0ED5B62AB5D7C0162FC574.INSTANCE,
                                                                                                                        D.alphaIndexedBy(int.class,
                                                                                                                                         org.drools.model.Index.ConstraintType.LESS_OR_EQUAL,
                                                                                                                                         DomainClassesMetadataF894883E1030542FEFCE9860F835B9B7.org_kie_kogito_queries_CreditCardApplication_Metadata_INSTANCE.getPropertyIndex("creditScore"),
-                                                                                                                                        org.kie.kogito.queries.P23.LambdaExtractor23789FDFB52E85DE644CB8A3C7BFAA1C.INSTANCE,
+                                                                                                                                        org.kie.kogito.queries.P35.LambdaExtractor35E85972055D417CB01EECAFF605A207.INSTANCE,
                                                                                                                                         500),
                                                                                                                        D.reactOn("creditScore")),
-                                                                   D.on(var_$l).execute(org.kie.kogito.queries.PA4.LambdaConsequenceA4819B0886AAEC18C0BA78613AA674AC.INSTANCE));
+                                                                   D.on(var_$l).execute(org.kie.kogito.queries.P3E.LambdaConsequence3EE05234F5741077EC9FBF80C0A60B45.INSTANCE));
         return rule;
     }
 
@@ -114,21 +115,21 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0 {
         org.drools.model.Rule rule = D.rule("org.kie.kogito.queries",
                                             "CreditRule_16").unit(org.kie.kogito.queries.CreditCardUnit.class)
                                                             .build(D.pattern(var_$l).expr("GENERATED_1194BAD07B7889752A101628B364EF96",
-                                                                                          org.kie.kogito.queries.PBE.LambdaPredicateBE67D3791E8CAC84645F956D238565D8.INSTANCE,
+                                                                                          org.kie.kogito.queries.PFE.LambdaPredicateFEC353F5A2E63D7D5395309F0BE64512.INSTANCE,
                                                                                           D.alphaIndexedBy(int.class,
                                                                                                            org.drools.model.Index.ConstraintType.GREATER_OR_EQUAL,
                                                                                                            -1,
-                                                                                                           org.kie.kogito.queries.P6F.LambdaExtractor6FD195D62B749BDB0F5EA20D18B3AA86.INSTANCE,
+                                                                                                           org.kie.kogito.queries.PD1.LambdaExtractorD1B96BA1B3914C647BA03E917B9682DB.INSTANCE,
                                                                                                            20),
                                                                                           D.reactOn("applicant")).expr("GENERATED_6AE18AC0AB78FF6960CF1003F25F6095",
-                                                                                                                       org.kie.kogito.queries.P28.LambdaPredicate28B2257784971FB1B01AA720D9638407.INSTANCE,
+                                                                                                                       org.kie.kogito.queries.P9F.LambdaPredicate9FA855A395435A86897A2024349A7FA6.INSTANCE,
                                                                                                                        D.alphaIndexedBy(int.class,
                                                                                                                                         org.drools.model.Index.ConstraintType.LESS_OR_EQUAL,
                                                                                                                                         DomainClassesMetadataF894883E1030542FEFCE9860F835B9B7.org_kie_kogito_queries_CreditCardApplication_Metadata_INSTANCE.getPropertyIndex("creditScore"),
-                                                                                                                                        org.kie.kogito.queries.P23.LambdaExtractor23789FDFB52E85DE644CB8A3C7BFAA1C.INSTANCE,
+                                                                                                                                        org.kie.kogito.queries.P35.LambdaExtractor35E85972055D417CB01EECAFF605A207.INSTANCE,
                                                                                                                                         501),
                                                                                                                        D.reactOn("creditScore")),
-                                                                   D.on(var_$l).execute(org.kie.kogito.queries.PA4.LambdaConsequenceA4819B0886AAEC18C0BA78613AA674AC.INSTANCE));
+                                                                   D.on(var_$l).execute(org.kie.kogito.queries.P3E.LambdaConsequence3EE05234F5741077EC9FBF80C0A60B45.INSTANCE));
         return rule;
     }
 
@@ -145,21 +146,21 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0 {
         org.drools.model.Rule rule = D.rule("org.kie.kogito.queries",
                                             "CreditRule_17").unit(org.kie.kogito.queries.CreditCardUnit.class)
                                                             .build(D.pattern(var_$l).expr("GENERATED_1194BAD07B7889752A101628B364EF96",
-                                                                                          org.kie.kogito.queries.PBE.LambdaPredicateBE67D3791E8CAC84645F956D238565D8.INSTANCE,
+                                                                                          org.kie.kogito.queries.PFE.LambdaPredicateFEC353F5A2E63D7D5395309F0BE64512.INSTANCE,
                                                                                           D.alphaIndexedBy(int.class,
                                                                                                            org.drools.model.Index.ConstraintType.GREATER_OR_EQUAL,
                                                                                                            -1,
-                                                                                                           org.kie.kogito.queries.P6F.LambdaExtractor6FD195D62B749BDB0F5EA20D18B3AA86.INSTANCE,
+                                                                                                           org.kie.kogito.queries.PD1.LambdaExtractorD1B96BA1B3914C647BA03E917B9682DB.INSTANCE,
                                                                                                            20),
                                                                                           D.reactOn("applicant")).expr("GENERATED_F6FE239412628933321DB64F9B6AF0CC",
-                                                                                                                       org.kie.kogito.queries.P95.LambdaPredicate95AC16E55811C339C572AD96EE808C63.INSTANCE,
+                                                                                                                       org.kie.kogito.queries.P27.LambdaPredicate275ADDF1AC2D794AFCE5D31944AA86FE.INSTANCE,
                                                                                                                        D.alphaIndexedBy(int.class,
                                                                                                                                         org.drools.model.Index.ConstraintType.GREATER_OR_EQUAL,
                                                                                                                                         DomainClassesMetadataF894883E1030542FEFCE9860F835B9B7.org_kie_kogito_queries_CreditCardApplication_Metadata_INSTANCE.getPropertyIndex("creditScore"),
-                                                                                                                                        org.kie.kogito.queries.P23.LambdaExtractor23789FDFB52E85DE644CB8A3C7BFAA1C.INSTANCE,
+                                                                                                                                        org.kie.kogito.queries.P35.LambdaExtractor35E85972055D417CB01EECAFF605A207.INSTANCE,
                                                                                                                                         700),
                                                                                                                        D.reactOn("creditScore")),
-                                                                   D.on(var_$l).execute(org.kie.kogito.queries.P15.LambdaConsequence15CE464CC2B1D400E4887AE4E3F97B98.INSTANCE));
+                                                                   D.on(var_$l).execute(org.kie.kogito.queries.P8C.LambdaConsequence8C5EFB70493CE2EE8F7A95F06571EB64.INSTANCE));
         return rule;
     }
 }
