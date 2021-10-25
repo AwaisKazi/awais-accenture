@@ -131,6 +131,40 @@ Example response:
   }
 ]
 ```
+### POST /find-passing
+
+Returns passing students from the given facts:
+
+example JSON:
+{
+    "schoolScores":[
+        {
+            "id":"ABC10001",
+            "math": 80,
+            "bio": 85,
+            "chem": 95
+        },
+        {
+            "id":"ABC10002",
+            "math": 89,
+            "bio": 49,
+            "chem": 20
+        },
+        {
+            "id":"ABC10015",
+            "math": 45,
+            "bio": 100,
+            "chem": 100
+        },
+         {
+            "id":"ABC10016",
+            "math": 50,
+            "bio": 50,
+            "chem": 50
+        }
+    ]
+}
+
 
 ## Deploying with Kogito Operator
 

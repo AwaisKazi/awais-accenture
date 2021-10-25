@@ -3,6 +3,8 @@ package org.kie.kogito.queries;
 import org.drools.modelcompiler.dsl.pattern.D;
 import org.drools.model.Index.ConstraintType;
 import org.kie.kogito.queries.CreditCardUnit;
+import org.kie.kogito.queries.SchoolScore;
+import org.kie.kogito.queries.EvenUnit;
 import org.kie.kogito.queries.LoanApplication;
 import static org.kie.kogito.queries.RulesF894883E1030542FEFCE9860F835B9B7.*;
 import org.drools.model.Query;
@@ -21,7 +23,7 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnit extends RulesF
 
     /**
      * With the following expression ID:
-     * org.drools.modelcompiler.builder.generator.DRLIdGenerator@3277c2cf
+     * org.drools.modelcompiler.builder.generator.DRLIdGenerator@7dc9e9d7
      */
     @Override
     public java.util.List<org.drools.model.Rule> getRules() {
@@ -53,7 +55,7 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnit extends RulesF
                                                                                                                D.entryPoint("creditCardApplications"));
         org.drools.model.Query FindCreditCardApproved_build = queryDef_FindCreditCardApproved.build(D.pattern(var_$l,
                                                                                                               D.entryPoint("creditCardApplications")).expr("GENERATED_D9B8FC64E2933F1E53E4385858CEBC66",
-                                                                                                                                                           org.kie.kogito.queries.PA1.LambdaPredicateA146AA6B4A76ECC87720B19BE8F5A6BA.INSTANCE,
+                                                                                                                                                           org.kie.kogito.queries.P29.LambdaPredicate29EEDBFF70D5867008381E3D69E9E763.INSTANCE,
                                                                                                                                                            D.reactOn("approved")));
         return FindCreditCardApproved_build;
     }

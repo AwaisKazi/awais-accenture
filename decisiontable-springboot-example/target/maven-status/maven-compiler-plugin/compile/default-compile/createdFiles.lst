@@ -1,9 +1,10 @@
-org\kie\kogito\queries\P65\LambdaPredicate658A75F3F0294E482E80F55C1F3979C0.class
-org\kie\kogito\queries\P5D\LambdaPredicate5D685DBF4832DFE870592526C2F71A10.class
 org\kie\kogito\queries\KogitoSpringbootApplication.class
+org\kie\kogito\queries\SchoolUnit.class
+org\kie\kogito\queries\Applicant.class
 org\kie\kogito\queries\CreditCardApplication.class
 org\kie\kogito\queries\CreditCardUnit.class
+org\kie\kogito\queries\EvenUnit.class
 org\kie\kogito\queries\LoanApplication.class
-org\kie\kogito\queries\P61\LambdaPredicate61B85A2F818E05D9AC8E396726591E0E.class
+org\kie\kogito\queries\SchoolScore.class
 org\kie\kogito\queries\LoanUnit.class
-org\kie\kogito\queries\Applicant.class
+org\kie\kogito\queries\EvenChecker.class

@@ -3,6 +3,8 @@ package org.kie.kogito.queries;
 import org.drools.modelcompiler.dsl.pattern.D;
 import org.drools.model.Index.ConstraintType;
 import org.kie.kogito.queries.CreditCardUnit;
+import org.kie.kogito.queries.SchoolScore;
+import org.kie.kogito.queries.EvenUnit;
 import org.kie.kogito.queries.LoanApplication;
 
 public abstract class RulesF894883E1030542FEFCE9860F835B9B7 implements org.drools.model.Model {
@@ -16,7 +18,9 @@ public abstract class RulesF894883E1030542FEFCE9860F835B9B7 implements org.drool
 
     @Override
     public java.util.List<org.drools.model.EntryPoint> getEntryPoints() {
-        return java.util.Arrays.asList(D.entryPoint("creditCardApplications"),
+        return java.util.Arrays.asList(D.entryPoint("evenChecks"),
+                                       D.entryPoint("schoolScores"),
+                                       D.entryPoint("creditCardApplications"),
                                        D.entryPoint("loanApplications"));
     }
 
@@ -29,6 +33,14 @@ public abstract class RulesF894883E1030542FEFCE9860F835B9B7 implements org.drool
     public java.util.List<org.drools.model.TypeMetaData> getTypeMetaDatas() {
         return typeMetaDatas;
     }
+
+    public static final org.drools.model.Global<org.kie.kogito.rules.DataStore> var_evenChecks = D.globalOf(org.kie.kogito.rules.DataStore.class,
+                                                                                                            "org.kie.kogito.queries",
+                                                                                                            "evenChecks");
+
+    public static final org.drools.model.Global<org.kie.kogito.rules.DataStore> var_schoolScores = D.globalOf(org.kie.kogito.rules.DataStore.class,
+                                                                                                              "org.kie.kogito.queries",
+                                                                                                              "schoolScores");
 
     public static final org.drools.model.Global<org.kie.kogito.rules.DataStore> var_creditCardApplications = D.globalOf(org.kie.kogito.rules.DataStore.class,
                                                                                                                         "org.kie.kogito.queries",
@@ -45,6 +57,12 @@ public abstract class RulesF894883E1030542FEFCE9860F835B9B7 implements org.drool
     public static final org.drools.model.Query0Def queryDef_FindNotApprovedIdAndAmount = D.query("org.kie.kogito.queries",
                                                                                                  "FindNotApprovedIdAndAmount");
 
+    public static final org.drools.model.Query0Def queryDef_FindPassing = D.query("org.kie.kogito.queries",
+                                                                                  "FindPassing");
+
+    public static final org.drools.model.Query0Def queryDef_FindEvens = D.query("org.kie.kogito.queries",
+                                                                                "FindEvens");
+
     public static final org.drools.model.Query0Def queryDef_FindCreditCardApproved = D.query("org.kie.kogito.queries",
                                                                                              "FindCreditCardApproved");
 
@@ -56,6 +74,8 @@ public abstract class RulesF894883E1030542FEFCE9860F835B9B7 implements org.drool
     java.util.List<org.drools.model.TypeMetaData> typeMetaDatas = java.util.Collections.emptyList();
 
     {
+        globals.add(var_evenChecks);
+        globals.add(var_schoolScores);
         globals.add(var_creditCardApplications);
         globals.add(var_loanApplications);
         globals.add(var_maxAmount);
