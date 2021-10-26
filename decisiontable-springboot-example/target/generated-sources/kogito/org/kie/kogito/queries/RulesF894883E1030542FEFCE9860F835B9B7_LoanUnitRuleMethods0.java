@@ -175,7 +175,7 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_LoanUnitRuleMethods0 {
         org.drools.model.Rule rule = D.rule("org.kie.kogito.queries",
                                             "LoanRule_17").unit(org.kie.kogito.queries.LoanUnit.class)
                                                           .build(D.pattern(var_$l).expr("GENERATED_C570E3A565BEB9D33B4F22270CB9FB39",
-                                                                                        org.kie.kogito.queries.PC9.LambdaPredicateC95CA4C68282AF17A58C9F610312A246.INSTANCE,
+                                                                                        org.kie.kogito.queries.PE2.LambdaPredicateE2D96BA61C733B42051B0ACDEB505F2B.INSTANCE,
                                                                                         D.alphaIndexedBy(int.class,
                                                                                                          org.drools.model.Index.ConstraintType.LESS_THAN,
                                                                                                          -1,
@@ -213,7 +213,7 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_LoanUnitRuleMethods0 {
         org.drools.model.Rule rule = D.rule("org.kie.kogito.queries",
                                             "LoanRule_18").unit(org.kie.kogito.queries.LoanUnit.class)
                                                           .build(D.pattern(var_$l).expr("GENERATED_C570E3A565BEB9D33B4F22270CB9FB39",
-                                                                                        org.kie.kogito.queries.PC9.LambdaPredicateC95CA4C68282AF17A58C9F610312A246.INSTANCE,
+                                                                                        org.kie.kogito.queries.PE2.LambdaPredicateE2D96BA61C733B42051B0ACDEB505F2B.INSTANCE,
                                                                                         D.alphaIndexedBy(int.class,
                                                                                                          org.drools.model.Index.ConstraintType.LESS_THAN,
                                                                                                          -1,

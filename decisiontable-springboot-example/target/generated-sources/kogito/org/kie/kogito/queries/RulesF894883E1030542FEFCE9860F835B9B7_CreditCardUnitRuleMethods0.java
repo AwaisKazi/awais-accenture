@@ -54,7 +54,7 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0 {
         org.drools.model.Rule rule = D.rule("org.kie.kogito.queries",
                                             "CreditCardRule_14").unit(org.kie.kogito.queries.CreditCardUnit.class)
                                                                 .build(D.pattern(var_$l).expr("GENERATED_A7C279C0563D4474C21CD98D66D38FC9",
-                                                                                              org.kie.kogito.queries.P72.LambdaPredicate72EAAE25ECCCB898C9CEAC4EFAA7CB62.INSTANCE,
+                                                                                              org.kie.kogito.queries.PAB.LambdaPredicateAB5C9FC145009D7C249C563A2B124427.INSTANCE,
                                                                                               D.alphaIndexedBy(int.class,
                                                                                                                org.drools.model.Index.ConstraintType.GREATER_OR_EQUAL,
                                                                                                                DomainClassesMetadataF894883E1030542FEFCE9860F835B9B7.org_kie_kogito_queries_CreditCardApplication_Metadata_INSTANCE.getPropertyIndex("age"),
@@ -85,7 +85,7 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_CreditCardUnitRuleMethods0 {
         org.drools.model.Rule rule = D.rule("org.kie.kogito.queries",
                                             "CreditCardRule_15").unit(org.kie.kogito.queries.CreditCardUnit.class)
                                                                 .build(D.pattern(var_$l).expr("GENERATED_A7C279C0563D4474C21CD98D66D38FC9",
-                                                                                              org.kie.kogito.queries.P72.LambdaPredicate72EAAE25ECCCB898C9CEAC4EFAA7CB62.INSTANCE,
+                                                                                              org.kie.kogito.queries.PAB.LambdaPredicateAB5C9FC145009D7C249C563A2B124427.INSTANCE,
                                                                                               D.alphaIndexedBy(int.class,
                                                                                                                org.drools.model.Index.ConstraintType.GREATER_OR_EQUAL,
                                                                                                                DomainClassesMetadataF894883E1030542FEFCE9860F835B9B7.org_kie_kogito_queries_CreditCardApplication_Metadata_INSTANCE.getPropertyIndex("age"),
