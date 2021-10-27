@@ -1,0 +1,10 @@
+org\kie\kogito\queries\KogitoSpringbootApplication.class
+org\kie\kogito\queries\CreditCardApplication.class
+org\kie\kogito\queries\NumberApplication.class
+org\kie\kogito\queries\CreditCardUnit.class
+org\kie\kogito\queries\LoanUnit.class
+org\kie\kogito\queries\StudentUnit.class
+org\kie\kogito\queries\NumberUnit.class
+org\kie\kogito\queries\LoanApplication.class
+org\kie\kogito\queries\Applicant.class
+org\kie\kogito\queries\StudentApplication.class
