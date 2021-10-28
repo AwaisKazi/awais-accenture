@@ -6,11 +6,12 @@ public class Order {
 	private String cardType;
 	private int discount;
 	private int price;
+	private boolean newAccount = false;
 
 	public Order(){
 	}
 
-	public Order(String name, String cardType, int discount, int price){
+	public Order(String name, String cardType, int discount, int price, boolean newAccount){
 		this.name = name;
 		this.cardType = cardType;
 		this.discount = discount;
