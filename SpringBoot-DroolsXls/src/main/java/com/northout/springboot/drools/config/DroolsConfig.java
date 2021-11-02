@@ -23,6 +23,7 @@ public class DroolsConfig {
 		KieFileSystem kieFileSystem = kieServices.newKieFileSystem();
 		kieFileSystem.write(ResourceFactory.newClassPathResource("offer.xls"));
 		kieFileSystem.write(ResourceFactory.newClassPathResource("loyalty.xls"));
+		kieFileSystem.write(ResourceFactory.newClassPathResource("score.xls"));
 		return kieFileSystem;
 
 	}
