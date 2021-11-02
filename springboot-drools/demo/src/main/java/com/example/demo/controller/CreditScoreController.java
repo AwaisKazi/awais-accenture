@@ -1,4 +1,4 @@
-package com.example.demo.contoller;
+package com.example.demo.controller;
 
 import java.util.ArrayList;
 import com.example.demo.model.CreditScore;
