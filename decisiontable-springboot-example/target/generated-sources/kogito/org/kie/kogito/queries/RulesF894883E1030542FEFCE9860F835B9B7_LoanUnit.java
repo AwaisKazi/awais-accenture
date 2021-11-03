@@ -22,7 +22,7 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_LoanUnit extends RulesF894883
 
     /**
      * With the following expression ID:
-     * org.drools.modelcompiler.builder.generator.DRLIdGenerator@106dee26
+     * org.drools.modelcompiler.builder.generator.DRLIdGenerator@72ce7842
      */
     @Override
     public java.util.List<org.drools.model.Rule> getRules() {
@@ -62,16 +62,16 @@ public class RulesF894883E1030542FEFCE9860F835B9B7_LoanUnit extends RulesF894883
     }
 
     private org.drools.model.Query query_FindNotApprovedIdAndAmount() {
-        final org.drools.model.Variable<org.kie.kogito.queries.LoanApplication> var_GENERATED_$pattern_LoanApplication$1$ = D.declarationOf(org.kie.kogito.queries.LoanApplication.class,
-                                                                                                                                            DomainClassesMetadataF894883E1030542FEFCE9860F835B9B7.org_kie_kogito_queries_LoanApplication_Metadata_INSTANCE,
-                                                                                                                                            "GENERATED_$pattern_LoanApplication$1$",
-                                                                                                                                            D.entryPoint("loanApplications"));
+        final org.drools.model.Variable<org.kie.kogito.queries.LoanApplication> var_GENERATED_$pattern_LoanApplication$476$ = D.declarationOf(org.kie.kogito.queries.LoanApplication.class,
+                                                                                                                                              DomainClassesMetadataF894883E1030542FEFCE9860F835B9B7.org_kie_kogito_queries_LoanApplication_Metadata_INSTANCE,
+                                                                                                                                              "GENERATED_$pattern_LoanApplication$476$",
+                                                                                                                                              D.entryPoint("loanApplications"));
         final org.drools.model.Variable<java.lang.String> var_$id = D.declarationOf(java.lang.String.class,
                                                                                     DomainClassesMetadataF894883E1030542FEFCE9860F835B9B7.java_lang_String_Metadata_INSTANCE,
                                                                                     "$id");
         final org.drools.model.Variable<Integer> var_$amount = D.declarationOf(Integer.class,
                                                                                "$amount");
-        org.drools.model.Query FindNotApprovedIdAndAmount_build = queryDef_FindNotApprovedIdAndAmount.build(D.pattern(var_GENERATED_$pattern_LoanApplication$1$,
+        org.drools.model.Query FindNotApprovedIdAndAmount_build = queryDef_FindNotApprovedIdAndAmount.build(D.pattern(var_GENERATED_$pattern_LoanApplication$476$,
                                                                                                                       D.entryPoint("loanApplications")).expr("GENERATED_873BBEADE9E88B7E5D92A91EEB1CF7FF",
                                                                                                                                                              org.kie.kogito.queries.P26.LambdaPredicate2669C7223D959816CED70B85CB2DA2B4.INSTANCE,
                                                                                                                                                              D.reactOn("approved")).bind(var_$id,
