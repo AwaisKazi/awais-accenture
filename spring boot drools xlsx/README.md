@@ -148,3 +148,102 @@ Spring Boot Project with drools excel file concept
 	}
 
 ]
+
+
+
+
+
+
+
+
+
+
+
+================
+
+
+
+	{
+		"name":"Dorothy",
+		"age": 45,
+		"creditScore": 200
+	},
+	{
+		"name":"Fredrick",
+		"age":45,
+		"creditScore":300
+	},
+	{
+		"name":"Shirley",
+		"age":45,
+		"creditScore": 100
+	},
+	{
+		"name":"Querida",
+		"age":45,
+		"creditScore": 400
+	},
+	{
+		"name":"QuentinII",
+		"age":45,
+		"creditScore":500
+	},
+	{
+		"name":"QuentinI",
+		"age":45,
+		"creditScore":600
+	},
+	{
+		"name":"Pam",
+		"age":45,
+		"creditScore": 700
+	},
+	    {
+	    "name": "Jivmmy",
+        "age": 45,
+        "creditScore": 800,
+        "loanAmount": 50000
+    },
+    {
+        "name": "Dforothy",
+        "age": 21,
+        "creditScore": 200,
+        "loanAmount": 500
+    },
+    {
+        "name": "Fredrirck",
+        "age": 21,
+        "creditScore": 300,
+        "loanAmount": 500
+    },
+    {
+        "name": "Shirdley",
+        "age": 21,
+        "creditScore": 100,
+        "loanAmount": 0
+    },
+    {
+        "name": "Quervida",
+        "age": 21,
+        "creditScore": 400,
+        "loanAmount": 1000
+    },
+    {
+        "name": "QuenvtinII",
+        "age": 21,
+        "creditScore": 500,
+        "loanAmount": 3000
+    },
+    {
+        "name": "QuentvinI",
+        "age": 21,
+        "creditScore": 600,
+        "loanAmount": 5000
+    },
+    {
+        "name": "Paam",
+        "age": 21,
+        "creditScore": 700,
+        "loanAmount": 10000
+    }
+	
